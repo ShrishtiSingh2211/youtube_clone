@@ -49,10 +49,14 @@ toggle_btn.addEventListener('change',()=> {
 const themeSwitcher = document.getElementById('theme-switcher');
 
 themeSwitcher.addEventListener('click', () => {
-    if(body.classlist.contains(dark-theme))
+    if(body.classList.contains("dark-theme"))
+    {
      document.body.classList.remove('dark-theme');
+    }
 else
+    {
     document.body.classList.add('dark-theme');
+    }
 });
 
 
